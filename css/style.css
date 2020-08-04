@@ -240,6 +240,15 @@ body > header {
 
 #links-list i {
     margin-right:0.5rem;
+}
+
+#links-list li {
+    transition:transform 0.15s ease-out;
+
+}
+
+#links-list li:hover {
+    transform:translateY( 10px );
 
 
 }
